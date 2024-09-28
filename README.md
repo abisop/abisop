@@ -1,5 +1,14 @@
 ## Hi there 👋
+ I am currently working on creating debugging and profiling system which is an open-source initiative
+ Currently tetsted for 
+ :arm-cortex devices along with nuttx and some parts for px4 (STM32h743 & stm32f765)
+ :nuttx build for stm32f401
+ Feel free to ask and contribute @https://github.com/abisop/robo-perf.git
 
+ -----------------
+ Under maintanance
+ ------------------
+ 
 <!--
 **abisop/abisop** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
