@@ -1,0 +1,242 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape ABHISHEK CHOITHANI} \\ \vspace{1pt}
+    {\raisebox{-0.2\height}\faEnvelope\  \underline{abhishekchoithani24@gmail.com}} ~ 
+    \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/abisop}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Xananoids}{2021 - 2024}
+      {ROBOTICS/Electronics/EmbeddedSystem}{JECRC JAIPUR}
+        \resumeSubheading
+      {Eyantra}{2022}
+      {ROS2/GazeboSim/GIT}{IIT BOMBAY }
+      \resumeSubheading
+      {Eyantra}{2023}
+      {Computer Architecture,VerilogHDL}{IIT BOMBAY}
+  \resumeSubHeadingListEnd
+  
+\vspace{13pt}
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{3}
+            \begin{itemize}[itemsep=-2pt, parsep=5pt]
+                \item\small Data Structures
+                \item Embedded System Debugging, Profiling and Tracing
+                \item RTOS (POSIX)
+                \item Assembly Programing (RISC)
+                \item Reverse Engineering
+                \item Robot Operating System
+                \item Flight Controller Design
+            \end{itemize}
+        \end{multicols}
+        \vspace*{1.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+
+\vspace{13pt}
+
+             
+   
+%
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Porting flight comtroller board to PX4-Autopilot} $|$ \emph{Make, C/C++, RTOS}}{}
+          \resumeItemListStart
+            \resumeItem{Added support for Skystars(a very reasonable price flight controller available in India) to px4. Its A replacement for pixhawk 2.4.8. Yet to commit in main repository as the board is of third party vendor. Also tested with Ardupilot firmware with QGC and Mission Planner}
+          \resumeItemListEnd 
+          \vspace{-1pt}
+          
+          \resumeProjectHeading
+          {\textbf{RISCV CPU Design using Verilog} $|$ \emph{RISCV, Verilog, FPGA}}{}
+          \resumeItemListStart
+            \resumeItem{As a part of eyantra robotics competition I programmed Intel's FPGA.
+                Interfaced ULTRASONIC Sensor, Motor driver, and other sensors and actuators with FPGA
+                and tested CPU design.
+            }
+          \resumeItemListEnd
+          \vspace{-1pt}
+          
+          \resumeProjectHeading
+          {\textbf{Created debugging tools - fully opensource} $|$ \emph{GDB, python}}{}
+          \resumeItemListStart
+            \resumeItem{Implemnted Debugging tools for ARM-Cortex M4/M7 that are fully opensource from GDB server to GDB machine interface using python(with RTOS awareness). Inspired by Aterion-Embedded Debugging tools and orbcode project}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{13pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C, Verilog, Python, Assembly} \\
+     \textbf{Libraries/Frameworks}{: PX4-Autopilot, Nuttx, GDB-PYTHON ,Ubuntu-linux, FPGA-altera, Git} \\
+    }}
+ \end{itemize}
+ \vspace{10pt}
+
+% %-----------PROGRAMMING SKILLS-----------
+% \section{Technical Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%      \textbf{PX4-Autopilot, Nuttx, GDB-PYTHON ,Ubuntu-linux, FPGA-altera, Git} \\
+%     }}
+%  \end{itemize}
+%  \vspace{16pt}
+
+% %-----------INVOLVEMENT---------------
+% \section{Leadership / Extracurricular}
+%     \resumeSubHeadingListStart
+%         \resumeItemListStart
+%             \resumeItem{Tech Head at Marvel Cart JECRC Chapter. Conducted and organised Competitive Coding Events which contributed towards Competitive Coding culture in the College. }
+%             \resumeItem{Problem setter at Marvel Cart(Society of IT engineers) in JECRC Foundation.}
+%             \resumeItem{Coordinator of tech-fest Renissance.}
+%         \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+
+
+
+\end{document}
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{art
