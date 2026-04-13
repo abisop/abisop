@@ -2,6 +2,10 @@
 <h3 align="center">Robotics Engineer</h3>
 
 - 🌱 I’m currently learning **Hardware/Software integration**
+- Solves issues related to compute
+- Skilled in creating simulation environment for robots
+- Can evaluate and analyse compute requiremets based on CPU/GPU/FPGA
+- Familiar with the Autonomous Mobile Robot Stack
 
 
 <h3 align="left">Languages and Tools:</h3>
